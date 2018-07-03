@@ -1,4 +1,4 @@
-package com.ryw.server.b;
+package com.ryw.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

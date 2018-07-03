@@ -1,4 +1,4 @@
-package com.ryw.server.b;
+package com.ryw.server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
