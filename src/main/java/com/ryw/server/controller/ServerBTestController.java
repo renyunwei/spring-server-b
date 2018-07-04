@@ -21,10 +21,10 @@ public class ServerBTestController {
 	private String serverPort;
 	
 	@RequestMapping(value = "hello-test", method = RequestMethod.GET)
-	public String helloWorldA() {
+	public String helloWorldA(String username) {
 		logger.info("hello world Bserver,this service's port is {}",serverPort);
 		logger.info("/hello-test, host:" + registration.getHost() + ", service_id:" + registration.getServiceId());
-		return "hello world B server";
+		return "hello world B server,I am " + username;
 	}
 	
 }
